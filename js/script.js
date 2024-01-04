@@ -1,3 +1,7 @@
+/**
+ * script.js will handle the custom back navigation, history.go(-1) does not reload the page it only changes the url.
+ */
+
 document.getElementById("history").innerHTML = JSON.stringify({
   historyLength: window.history.length,
 });

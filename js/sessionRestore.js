@@ -1,3 +1,7 @@
+/**
+ * sessionRestore.js will handle the history stack restoration. 
+ */
+
 const urlList = ["/index.html", "/index1.html", "/index2.html", "/index3.html"];
 
 function iterateUrlList(urlList) {
