@@ -3,12 +3,7 @@ document.getElementById("history").innerHTML = JSON.stringify({
 });
 
 function handlePopState() {
-  if (window.location.href.includes("sessionRestore")) {
-    window.location.href = "/exitWebview.html";
-    return;
-  } else {
-    window.location.reload();
-  }
+  window.location.reload();
 }
 
 // Add the event listener
